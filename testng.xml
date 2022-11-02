@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite de Pruebas Ejercicios" verbose="2">
+
+   <test name = "Pruebas Hello">
+      <classes>
+         <class name = "ea.upb.edu.co.HelloWorld_Test"/>
+      </classes>
+   </test>
+
+   <test name = "Pruebas Ejercicio1">
+      <classes>
+         <class name = "ea.upb.edu.co.ejercicio1.Ejercicio1_Test"/>
+      </classes>
+   </test>
+
+   <test name = "Pruebas Ejercicio2">
+      <classes>
+         <class name = "ea.upb.edu.co.ejercicio2.Ejercicio2_Test"/>
+      </classes>
+   </test>
+
+</suite>
+

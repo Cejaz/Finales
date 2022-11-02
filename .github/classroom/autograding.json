@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test2",
+      "setup": "javac -encoding utf8 --source-path ./src -d ./bin src/ea/upb/edu/co/ejercicio2/Ejercicio2_Test2.java",
+      "run": "java -cp ./bin ea.upb.edu.co.ejercicio2.Ejercicio2_Test2",
+      "input": "",
+      "output": "11127\r\n87\r\n87\r\n5\r\nThe Most of P.G. Wodehouse,4.48\r\nLonesome Dove,4.49\r\n11\r\nCocolat: Extraordinary Chocolate Desserts,4.56\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 1",
+      "setup": "javac -encoding utf8 --source-path src -d bin ./src/ea/upb/edu/co/ejercicio1/Ejercicio1_Test1.java",
+      "run": "java -cp ./bin ea.upb.edu.co.ejercicio1.Ejercicio1_Test1",
+      "input": "",
+      "output": "3168\r\n53\r\n2\r\nsaid\r\nalice\r\nthat\r\nwith\r\nthis\r\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
